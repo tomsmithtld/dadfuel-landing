@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffeine and Sleep Deprivation: A New Dad's Guide | DadFuel</title>
+    <meta name="description" content="You're surviving on coffee. But how much is too much? When should you stop? And what actually helps when you're running on empty?">
+    <meta property="og:title" content="Caffeine and Sleep Deprivation: A New Dad's Guide">
+    <meta property="og:description" content="How much coffee is too much, when to stop, and what actually helps when you're running on empty.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://dadfuel.33c.dev/blog/caffeine-sleep-deprivation">
+    <meta property="og:image" content="https://dadfuel.33c.dev/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://dadfuel.33c.dev/blog/caffeine-sleep-deprivation">
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Article","headline":"Caffeine and Sleep Deprivation: A New Dad's Guide","description":"You're surviving on coffee. But how much is too much? When should you stop? And what actually helps when you're running on empty?","author":{"@type":"Person","name":"Tom"},"publisher":{"@type":"Organization","name":"DadFuel","url":"https://dadfuel.33c.dev"},"datePublished":"2026-02-16","url":"https://dadfuel.33c.dev/blog/caffeine-sleep-deprivation","image":"https://dadfuel.33c.dev/og-image.png"}
+    </script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💧</text></svg>">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg: #0B1120;
+            --bg-card: rgba(16, 28, 52, 0.6);
+            --blue: #3B82F6;
+            --blue-light: #60A5FA;
+            --blue-glow: rgba(59, 130, 246, 0.2);
+            --cyan: #06B6D4;
+            --amber: #F59E0B;
+            --amber-glow: rgba(245, 158, 11, 0.2);
+            --white: #eef2f7;
+            --white-70: rgba(238, 242, 247, 0.7);
+            --white-40: rgba(238, 242, 247, 0.4);
+            --white-10: rgba(238, 242, 247, 0.1);
+            --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        html { scroll-behavior: smooth; background: var(--bg); }
+        body { font-family: var(--font); background: var(--bg); color: var(--white); line-height: 1.75; overflow-x: hidden; -webkit-font-smoothing: antialiased; }
+        .glow { position: fixed; border-radius: 50%; filter: blur(140px); z-index: 0; pointer-events: none; }
+        .glow--1 { width: 500px; height: 500px; background: radial-gradient(circle, rgba(59,130,246,0.06) 0%, transparent 70%); top: -100px; left: -80px; }
+        nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 14px 0; background: rgba(11, 17, 32, 0.88); backdrop-filter: blur(18px); border-bottom: 1px solid var(--white-10); }
+        nav .container { display: flex; justify-content: space-between; align-items: center; }
+        .nav-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--white); font-size: 18px; font-weight: 700; }
+        .nav-logo .accent { color: var(--blue-light); }
+        .nav-cta { padding: 8px 18px; background: var(--amber); color: #1a1a2e; border: none; border-radius: 8px; font-size: 14px; font-weight: 600; text-decoration: none; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; }
+        .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 4px 18px var(--amber-glow); }
+        .container { max-width: 720px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+        article { padding: 120px 0 60px; }
+        .breadcrumb { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--white-40); margin-bottom: 32px; }
+        .breadcrumb a { color: var(--blue-light); text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        article h1 { font-size: clamp(28px, 4vw, 40px); font-weight: 800; line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 16px; }
+        .article-meta { font-size: 14px; color: var(--white-40); margin-bottom: 40px; display: flex; align-items: center; gap: 12px; }
+        article h2 { font-size: 24px; font-weight: 700; margin: 48px 0 16px; color: var(--white); }
+        article p { font-size: 17px; color: var(--white-70); margin-bottom: 20px; }
+        article ul { margin: 0 0 24px 20px; color: var(--white-70); font-size: 17px; }
+        article li { margin-bottom: 8px; }
+        .callout { background: var(--bg-card); border-left: 3px solid var(--blue); padding: 20px 24px; border-radius: 0 12px 12px 0; margin: 32px 0; }
+        .callout p { color: var(--white); margin-bottom: 0; font-size: 16px; }
+        .callout p + p { margin-top: 12px; }
+        .caffeine-table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 15px; }
+        .caffeine-table th { text-align: left; padding: 12px 16px; background: var(--bg-card); color: var(--blue-light); font-weight: 600; border-bottom: 2px solid var(--white-10); }
+        .caffeine-table td { padding: 12px 16px; border-bottom: 1px solid var(--white-10); color: var(--white-70); }
+        .callout--warning { border-left-color: var(--amber); background: rgba(245, 158, 11, 0.06); }
+        .cta-section { text-align: center; padding: 60px 0; margin-top: 40px; border-top: 1px solid var(--white-10); }
+        .cta-section h2 { margin-top: 0; }
+        .cta-section p { color: var(--white-40); max-width: 480px; margin: 0 auto 24px; }
+        .cta-btn { display: inline-block; padding: 14px 28px; background: var(--amber); color: #1a1a2e; border: none; border-radius: 10px; font-size: 16px; font-weight: 700; text-decoration: none; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; }
+        .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 24px var(--amber-glow); }
+        .related { margin: 48px 0 0; padding: 32px 0; border-top: 1px solid var(--white-10); }
+        .related h3 { font-size: 18px; font-weight: 600; margin-bottom: 16px; }
+        .related a { display: block; padding: 12px 16px; background: var(--bg-card); border: 1px solid var(--white-10); border-radius: 10px; color: var(--blue-light); text-decoration: none; margin-bottom: 8px; font-size: 15px; transition: border-color 0.2s; }
+        .related a:hover { border-color: var(--blue); }
+        .related a span { display: block; color: var(--white-40); font-size: 13px; margin-top: 4px; }
+        footer { text-align: center; padding: 40px 0; color: var(--white-40); font-size: 13px; border-top: 1px solid var(--white-10); }
+        footer a { color: var(--white-40); text-decoration: none; }
+        footer a:hover { color: var(--white); }
+        @media (max-width: 640px) { article { padding-top: 100px; } .container { padding: 0 16px; } .caffeine-table { font-size: 13px; } .caffeine-table th, .caffeine-table td { padding: 8px 10px; } }
+    </style>
+</head>
+<body>
+    <div class="glow glow--1"></div>
+    <nav>
+        <div class="container">
+            <a href="/" class="nav-logo">💧 Dad<span class="accent">Fuel</span></a>
+            <a href="/#waitlist" class="nav-cta">Join Waitlist</a>
+        </div>
+    </nav>
+    <article>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="/">DadFuel</a> <span>/</span> <a href="/blog/">Blog</a> <span>/</span> <span>Caffeine Guide</span>
+            </div>
+            <h1>Caffeine and Sleep Deprivation: A New Dad's Guide</h1>
+            <div class="article-meta">
+                <span>By Tom</span>
+                <span>|</span>
+                <span>February 2026</span>
+                <span>|</span>
+                <span>6 min read</span>
+            </div>
+
+            <p>when my son was 3 weeks old I was averaging 4 hours of sleep a night and drinking 6 cups of coffee a day. I felt awful. the coffee was keeping me upright but it wasn't making me feel good. I was jittery, irritable, and crashing hard by 4pm.</p>
+
+            <p>turns out, the way most sleep-deprived dads use caffeine is backwards. here's what actually works.</p>
+
+            <h2>How caffeine works (the short version)</h2>
+
+            <p>caffeine blocks adenosine receptors in your brain. adenosine builds up the longer you're awake and makes you feel sleepy. caffeine doesn't remove the adenosine. it just blocks the receptors so you can't feel it.</p>
+
+            <p>when the caffeine wears off (half-life is 5-6 hours), all that built-up adenosine hits you at once. that's the crash. and if you're already sleep-deprived, the crash is brutal because you've got way more adenosine than normal.</p>
+
+            <h2>How much is safe?</h2>
+
+            <p>the European Food Safety Authority says 400mg per day is safe for most adults. that's roughly:</p>
+
+            <table class="caffeine-table">
+                <thead>
+                    <tr><th>Drink</th><th>Caffeine (approx)</th><th>Cups to hit 400mg</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Filter coffee</td><td>95mg per cup</td><td>4 cups</td></tr>
+                    <tr><td>Espresso</td><td>63mg per shot</td><td>6 shots</td></tr>
+                    <tr><td>Instant coffee</td><td>60mg per cup</td><td>6-7 cups</td></tr>
+                    <tr><td>Black tea</td><td>47mg per cup</td><td>8-9 cups</td></tr>
+                    <tr><td>Energy drink (250ml)</td><td>80mg per can</td><td>5 cans</td></tr>
+                </tbody>
+            </table>
+
+            <p>400mg is the safety ceiling, not the target. most people do fine on 200-300mg. and when you're sleep-deprived, caffeine sensitivity can increase because your nervous system is already running hot.</p>
+
+            <h2>The caffeine cut-off time</h2>
+
+            <p>this is the single most important thing. caffeine has a half-life of 5-6 hours. that means if you drink coffee at 3pm, half of it is still in your system at 9pm. a quarter is still there at 2am.</p>
+
+            <p>as a new dad, your sleep windows are unpredictable and short. you cannot afford to have caffeine interfering with whatever sleep you do get.</p>
+
+            <div class="callout">
+                <p>the rule I use: no caffeine after 1pm. some people say 2pm. I go earlier because when the baby decides it's sleep time at 8pm, I want to be able to fall asleep too. every hour matters.</p>
+            </div>
+
+            <h2>Strategic caffeine timing</h2>
+
+            <p>instead of sipping coffee all day, time it for when you need it most:</p>
+
+            <ul>
+                <li><strong>morning (6-9am):</strong> your cortisol is naturally high after waking. some experts suggest waiting 90 minutes before your first coffee to let cortisol do its job first. honestly, when you're a new dad, just drink it when you need it. the 90-minute rule is ideal but not realistic at 5am after a broken night.</li>
+                <li><strong>late morning (10-11am):</strong> good time for a second cup. cortisol dips, caffeine fills the gap. this is usually when the morning energy fades.</li>
+                <li><strong>early afternoon (12-1pm):</strong> last chance. if you need one, have it now. after this, switch to water or decaf.</li>
+                <li><strong>afternoon (after 1pm):</strong> no caffeine. period. if you're crashing, try a 20-minute nap if possible (the "coffee nap" trick: drink coffee, immediately nap for 20 minutes, wake up as it kicks in. works surprisingly well).</li>
+            </ul>
+
+            <h2>What about energy drinks?</h2>
+
+            <p>they're fine in moderation, but watch the sugar. a 250ml Red Bull has 80mg of caffeine (less than a filter coffee) but 27g of sugar. the sugar crash on top of the caffeine crash on top of the sleep deprivation is a rough combo.</p>
+
+            <p>if you want something with a bit of fizz, sugar-free versions are a better bet. or just cold brew, which you can make in a jar overnight and grab from the fridge.</p>
+
+            <h2>Better alternatives when you've hit your caffeine limit</h2>
+
+            <ul>
+                <li><strong>cold water on your face.</strong> sounds daft. works surprisingly well. the cold activates your sympathetic nervous system and genuinely wakes you up for 15-20 minutes.</li>
+                <li><strong>a short walk outside.</strong> even 10 minutes. sunlight exposure resets your circadian rhythm and the movement gets blood flowing. better than another coffee.</li>
+                <li><strong>protein over sugar.</strong> when you crash, your body screams for sugar. but a handful of nuts or a bit of cheese gives you steadier energy. sugar just creates another spike and crash.</li>
+                <li><strong>the 20-minute nap.</strong> if the baby is sleeping and you have the chance, take it. 20 minutes of sleep beats 3 cups of coffee. set an alarm. longer naps make the grogginess worse.</li>
+            </ul>
+
+            <h2>Tracking makes the difference</h2>
+
+            <p>I started tracking my caffeine intake because I honestly had no idea how much I was drinking. turns out it was way more than I thought. six instant coffees plus a Red Bull is about 440mg. over the safe limit, and most of it in the afternoon.</p>
+
+            <p>once I could see it, I could fix it. DadFuel tracks caffeine alongside water and energy levels, so you can see the relationship between what you're drinking and how you feel.</p>
+
+            <div class="callout--warning callout">
+                <p><strong>important:</strong> if you're experiencing heart palpitations, severe anxiety, chest tightness, or dizziness, cut caffeine immediately and talk to your GP. these can be signs of excessive caffeine intake, especially combined with chronic sleep deprivation.</p>
+            </div>
+
+            <div class="related">
+                <h3>More from the blog</h3>
+                <a href="/blog/hydration-new-dads">
+                    How Much Water Should a New Dad Actually Drink?
+                    <span>Sleep deprivation tanks your hydration. Here's what to do about it.</span>
+                </a>
+            </div>
+
+            <div class="cta-section">
+                <h2>Track your caffeine and hydration with DadFuel</h2>
+                <p>See the relationship between what you drink and how you feel. Built for tired dads.</p>
+                <a href="/#waitlist" class="cta-btn">Join the Waitlist</a>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="container">
+            <p>Built by Tom &nbsp;|&nbsp; <a href="/#privacy">Privacy</a> &nbsp;|&nbsp; <a href="/#terms">Terms</a> &nbsp;|&nbsp; &copy; 2026 DadFuel</p>
+        </div>
+    </footer>
+</body>
+</html>
